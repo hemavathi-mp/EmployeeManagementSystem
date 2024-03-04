@@ -1,0 +1,46 @@
+C:\Users\DELL\PycharmProjects\EmployeeManagementSystem\venv\Scripts\python.exe C:\Users\DELL\PycharmProjects\EmployeeManagementSystem\main.py
+Enter Employee details:
+Enter Employee Name	:Jihn
+Enter employee_id	:1
+Enter department	:Testing
+Enter title	:tester
+Enter Employee Name	:jane
+Enter employee_id	:2
+Enter department	:developer
+Enter title	:developer
+
+String representation method (__repr__) that returns the employee's name and ID.
+Name: Jihn, ID: 1
+Name: jane, ID: 2
+
+String representation method (__str__) that returns the employee's name and ID.
+Name: Jihn, ID: 1
+Name: jane, ID: 2
+
+All Employees:
+Name: Jihn, ID: 1, Department: Testing, Title: tester
+Name: jane, ID: 2, Department: developer, Title: developer
+
+Enter employee_id to remove	:1
+
+All Employees after removal:
+Name: jane, ID: 2, Department: developer, Title: developer
+------------------------------------------------------------------------------
+Enter Department details:
+Enter dept_id	:111
+Enter Department Name	:testing
+Enter employee_name	:jihn
+Enter dept_id	:112
+Enter Department Name	:development
+Enter employee_name	:jane
+
+All Department:
+Department ID: 111, Department Name: testing, Employee: jihn
+Department ID: 112, Department Name: development, Employee: jane
+
+Enter department ID  to remove	:112
+
+All Eepartment after removal:
+Department ID: 111, Department Name: testing, Employee: jihn
+
+Process finished with exit code 0
